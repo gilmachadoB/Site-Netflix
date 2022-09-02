@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000000;
+}
+
+body::-webkit-scrollbar {
+    /* largura de toda a barra de rolagem */
+    width: 16px;
+}
+
+body::-webkit-scrollbar-track {
+    /* cor da área de rastreamento*/
+    background: #222;
+
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #222;
+    /* cor do polegar de rolagem*/
+    border-radius: 10px;
+    /* arredondamento do polegar de rolagem */
+    border: 3px solid #ffffff;
+    /* preenchimento do polegar de rolagem */
+}
+
+.box_background {
+    background: url('/images/BACKGROUND.jpg') no-repeat 0 0;
+    background-size: 100% 100%;
+  
+}
+
+.container_logo {
+    justify-content: space-between;
+    display: flex;
+}
+
+.image_logo {
+    width: 200px;
+    margin-left: 40px;
+}
+
+.image_logo:hover {
+    scale: 1.2;
+}
+
+.button_open {
+    background: #df0c11;
+    color: #ffffff;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 4px;
+    width: 100px;
+    margin-right: 40px;
+    margin-top: 30px;
+    height:40px;
+
+}
+
+.first_title {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 5%;
+    font-size: 3.125rem;
+    margin-bottom: 0;
+}
+.caption_one {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+.caption_two {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.caption_tree {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 1%;
+    margin-top: 6%;
+}
+
+.row_input {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.cta_container {
+    justify-content: center;
+    align-items: center;
+}
+
+.input_email {
+    width: 30%;
+    height: 67px;
+    border: none;
+    padding-left: 2%;
+    
+
+}
+
+.cta {
+    background: #df0c11;
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    border: none;
+    width: 170px;
+    height: 71px;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.border_bottom {
+    border-bottom: 8px solid #222;
+    padding-top: 180px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 8px solid #222;
+    padding-top: 5%;
+    padding-bottom: 3%;
+
+}
+
+.row_border_bottom {
+    border-bottom: 8px solid #222;
+}
+
+.block {
+    flex: 1;
+}
+
+.description_title_banner {
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.8rem;
+    margin-left: 400px;
+}
+
+.description_title_banner_two {
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.8rem;
+    margin-left: 250px;
+    
+}
+.description_banner_two {
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-left: 250px;
+}
+
+.description_caption {
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-left: 400px;
+    width: 50%;
+}
+
+.banner_one {
+    margin-left: 60px;
+    width: 600px;
+}
+
+
+.banner_two {
+    margin-left: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 400px;
+    height: 300px;
+}
+
+
+
+
+.banner_three {
+    width: 500px;
+    border-radius: 5px;
+    margin-right: 250px;
+}
+
+
+.accordion_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.questions {
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 3.125rem;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.accordion {
+    background-color: #303030;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 20px;
+    width: 40%;
+    text-align: left;
+    border-radius: 10px;
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    font-size: 22px;
+    margin-bottom: 4px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.painel {
+    padding: 30px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    height: 80px;
+    width: 37%;
+        color: #000000;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.a_footer {
+    text-decoration: none;
+    color: #737373;
+}
+
+.footer {
+    width: 70%;
+    justify-content: space-between;
+    margin-left: 15%;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
