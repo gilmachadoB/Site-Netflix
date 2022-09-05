@@ -1,2 +1,2 @@
 # Site-Responsivo-Netflix
-Meu primeiro código feito do zero, sem tutoriais prontos, escrevi meu primeiro código sozinhaaa  \o/  e R E S P O N S I VO...
+
